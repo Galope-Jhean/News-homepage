@@ -46,9 +46,6 @@ body {
     color: hsl(5, 85%, 63%);
 }
 
-input {
-    display: none;
-}
 
 @media (max-width: 800px) {
     .navbar {
