@@ -245,7 +245,7 @@ body {
 
 @media (max-width: 900px) {
     .navbar {
-        margin: 20px 20px;
+        margin: 0;
     }
 }
 
