@@ -201,7 +201,6 @@ body {
 .more-featured .new .line {
     margin-top: 20px;
     border-bottom: 0.8px solid rgb(162, 162, 162);
-    border-radius: 10px;
 }
 
 .trending {
@@ -243,14 +242,7 @@ body {
     color: #737070;
 }
 
-
-@media (max-width: 850px) {
-    .navbar {
-        margin: 20px 20px;
-    }
-}
-
-@media (max-width: 700px) {
+@media (max-width: 400px) {
 
     .hamburger,
     .toggle-menu {
@@ -281,4 +273,54 @@ body {
         padding-top: 10px;
     }
 
+    .headlines {
+        display: block;
+    }
+
+    .featured {
+        width: 475px;
+        height: 345px;
+        margin-left: 15px;
+    }
+
+    .featured-desc {
+        display: grid;
+    }
+
+    .featured-desc h1 {
+        width: 100%;
+        font-size: 2.3rem;
+    }
+
+    .featured-desc p {
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    .more-featured {
+        margin-top: 270px;
+        margin-left: 70px;
+    }
+
+    .trending {
+        display: grid;
+        grid-auto-flow: row;
+        margin-left: 15px;
+    }
+
+    .trending .spotlight {
+        margin-bottom: 50px;
+    }
+
+    .trending .spotlight p {
+        width: 25%;
+    }
+
+    .navbar {
+        margin: 25px 20px;
+    }
+
+    .trending .last {
+        padding-bottom: 50px;
+    }
 }
