@@ -1,103 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-  <title>Movie News!</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-  <nav class="navbar">
-    <div class="brand-logo">M.</div>
-      <div class="navbar-links">
-        <input type="checkbox" class="toggle-menu">
-        <div class="hamburger"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Imagess/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <header class="navigation">
+      <div class="logo">M.</div>
+      <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">New</a></li>
-          <li><a href="#">Popular</a></li>
-          <li><a href="#">Trending</a></li>
-          <li><a href="#">Categories</a></li>
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
         </ul>
-      </div>
-    </div>
-      
-  </nav>
-  
-  <main>
-    <div class="headlines">
-      <div class="featured">
-        <picture>
-          <source media="(min-width: 600px)" srcset="Imagess/everythingBanner.jpg">
-          <img src="Imagess/mobile-image.jpg" alt="Everything Everywhere All at Once Poster"/>
-        </picture>
-        <div class="featured-desc">
-          <h1>The Best Film of the Year!</h1>
-          <p>An aging Chinese immigrant is swept up in an insane adventure, 
-            where she alone can save what’s important to her by connecting with 
-            the lives she could have led in other universes. Everything Everywhere 
-            All at Once is a 2022 American absurdist comedy-drama film written and directed
-             by Daniel Kwan and Daniel Scheinert (collectively known as "Daniels").
-            <br>
-             <button>READ MORE</button>
-            </p>           
+      </nav>
+      <a href="#" class="toggle-button">
+        <span class="bar hey"></span>
+        <span class="bar"></span>
+        <span class="bar hey1"></span>
+      </a>
+    </header>
+
+    <main>
+      <section class="features">
+        <div>
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="Imagess/everythingBanner.jpg"
+            />
+            <img
+              src="Imagess/mobile-image.jpg"
+              alt="Everything Everywhere All At Once Poster"
+            />
+          </picture>
+
+          <article>
+            <h1>The Best Film of the Year!</h1>
+            <div>
+              <p>
+                Everything Everywhere All at Once is a 2022 American absurdist
+                comedy-drama film written and directed by Daniel Kwan and Daniel
+                Scheinert.
+              </p>
+
+              <button>Read more</button>
+            </div>
+          </article>
         </div>
-        
-      </div>
-      <div class="more-featured">
-        <h2>New</h2>
-        <div class="new first">
-          <span class="title">Thor: Love and Thunder</span>
-          <p>
-              Marvel’s second film of 2022 is the highly anticipated 
-              follow-up to Taika Waititi’s Thor: Ragnarok.
-          </p>
-          <div class="line"></div>
+
+        <div class="New">
+          <h2>New</h2>
+          <article>
+            <h3>Thor: Love and Thunder</h3>
+            <p>
+              Marvel’s second film of 2022 is the highly anticipated follow-up
+              to Taika Waititi’s Thor: Ragnarok.
+            </p>
+          </article>
+          <article>
+            <h3>Bullet Train</h3>
+            <p>
+              Unlucky assassin Ladybug is determined to do his job peacefully
+              after one too many gigs gone off the rails.
+            </p>
+          </article>
+          <article>
+            <h3>Minions: Rise of Gru</h3>
+            <p>
+              A fanboy of a supervillain supergroup known as the Vicious 6, Gru
+              hatches a plan to become evil enough to join them, with the backup
+              of his followers, the Minions.
+            </p>
+          </article>
         </div>
-        <div class="new second">
-          <span class="title">Bullet Train</span>
-          <p>
-            Unlucky assassin Ladybug is determined to do his job
-            peacefully after one too many gigs gone off the rails.
-          </p>
-          <div class="line one"></div>
-        </div>
-        <div class="new last">
-          <span class="title">Minions: Rise of Gru</span>
-          <p>
-            A fanboy of a supervillain supergroup known as the Vicious 6,
-             Gru hatches a plan to become evil enough to join them, with 
-             the backup of his followers, the Minions.
-          </p>
-        </div>
-       
+      </section>
+
+      <div class="latest-trends">
+        <article>
+          <img
+            src="Imagess/top-gun-maverick.png"
+            alt="top gun maverick poster"
+          />
+          <div>
+            <span>01</span>
+            <h4>Top Gun: Maverick</h4>
+            <p>
+              Pete “Maverick” Mitchell is back, better than ever, tasked to take
+              an imposssible mission that only the elites can do.
+            </p>
+          </div>
+        </article>
+        <article>
+          <img src="Imagess/NopePoster.jpg" alt="Nope poster" />
+          <div>
+            <span>02</span>
+            <h4>Nope</h4>
+            <p>
+              Residents in a lonely gulch of inland California bear witness to
+              an uncanny, chilling discovery.
+            </p>
+          </div>
+        </article>
+        <article>
+          <img src="Imagess/elvisPoster.jpg" alt="Elvis Poster" />
+          <div>
+            <span>03</span>
+            <h4>Elvis</h4>
+            <p>
+              The life story of Elvis Presley as seen through the rough
+              relationship with his enigmatic manager, Colonel Tom Parker.
+            </p>
+          </div>
+        </article>
       </div>
-    </div>
-    <div class="trending">
-      <div class="spotlight">
-        <img src="Imagess/top-gun-maverick.png" alt="Top Gun: Maverick poster">
-        <h3>01</h3>
-        <span>Top Gun: Maverick</span>
-        <p>Pete “Maverick” Mitchell is back, better than ever he is tasked to
-           take an impposible mission that only the elites can do</p>
-      </div>
-      <div class="spotlight">
-        <img src="Imagess/NopePoster.jpg" alt="Movie Nope poster">
-        <h3>02</h3>
-        <span>Nope</span>
-        <p>Residents in a lonely gulch of inland California bear witness
-           to an uncanny, chilling discovery.</p>
-      </div>
-      <div class="spotlight last">
-        <img src="Imagess/elvisPoster.jpg" alt="Elvis Movie Poster">
-        <h3>03</h3>
-        <span>Elvis</span>
-        <p>The life story of Elvis Presley as seen through the rough 
-          relationship with his enigmatic manager, Colonel Tom Parker.</p>
-      </div>
-    </div>
-  </main>
-</body>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
