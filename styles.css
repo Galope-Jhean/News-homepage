@@ -176,8 +176,18 @@ body{
 
 .latest-trends article h4{
     font-size: 1.25rem;
-    color: hsl(240, 100%, 5%);
+    
     margin: 1rem 0;
+}
+
+.latest-trends article h4 a{
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+}
+
+.latest-trends article h4 a:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
 }
 
 .toggle-button {
