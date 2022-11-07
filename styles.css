@@ -219,7 +219,7 @@ body{
 
 .toggle-button .bar:first-child.active{
     top: 0;
-    transform: rotate(45deg);
+    transform: rotate(405deg);
 }
 
 .toggle-button .bar:nth-child(2).active{
