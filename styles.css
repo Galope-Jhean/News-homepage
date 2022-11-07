@@ -115,6 +115,11 @@ body{
     background-color: hsl(240, 100%, 5%);
     cursor: pointer;
 }
+.features div:first-child article button a,
+.features .New h3 a{
+    text-decoration: none;
+    color: white;
+}
 
 .features .New{
     background-color: hsl(240, 100%, 5%);
@@ -140,7 +145,7 @@ body{
     margin-bottom: 0.5rem;
 }
 
-.features .New h3:hover{
+.features .New h3 a:hover{
     color: hsl(35, 77%, 63%);
     cursor: pointer;
 }
